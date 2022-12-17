@@ -1,10 +1,10 @@
 {
   "bioUrl": "https://raw.githubusercontent.com/kickthevidit/terminal-website/main/src/data/bio.dat",
+  "resume": "https://drive.google.com/file/d/1TzttnKUpjSOYpotcxr5k33dgI3vhaxn1/view",
+  "portfolio": "",
   "social": {
-    "instagram": "m4tt72",
     "github": "kickthevidit",
-    "linkedin": "viditg",
-    "spotify": ""
+    "linkedin": "viditg"
   },
   "theme": "gruvboxdark",
   "border": true

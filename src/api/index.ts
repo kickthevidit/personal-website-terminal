@@ -15,6 +15,18 @@ export const getBio = async () => {
   return data;
 };
 
+export const getExp = async () => {
+  const { data } = await axios.get(config.bioUrl);
+
+  return data;
+};
+
+export const getResume = async () => {
+  const { data } = await axios.get(config.resume);
+
+  return data;
+};
+
 export const getWeather = async (city: string) => {
   const { data } = await axios.get(`https://wttr.in/${city}?ATm`);
 
