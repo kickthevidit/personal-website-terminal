@@ -27,6 +27,13 @@ export const getResume = async () => {
   return data;
 };
 
+export const getPortfolio = async () => {
+  const { data } = await axios.get(config.portfolio);
+
+  return data;
+};
+
+
 export const getWeather = async (city: string) => {
   const { data } = await axios.get(`https://wttr.in/${city}?ATm`);
 
