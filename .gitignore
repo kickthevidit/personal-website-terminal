@@ -45,3 +45,6 @@ bin/
 _static/
 
 .vscode/
+
+# ssh keys
+scripts/cpanel_ssh.sh
