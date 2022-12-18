@@ -33,7 +33,6 @@ export const getPortfolio = async () => {
   return data;
 };
 
-
 export const getWeather = async (city: string) => {
   const { data } = await axios.get(`https://wttr.in/${city}?ATm`);
 
