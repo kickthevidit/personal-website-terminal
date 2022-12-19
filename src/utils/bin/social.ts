@@ -24,6 +24,18 @@ export const super_secret = async (args: string[]): Promise<string> => {
   return 'sorry...';
 };
 
+export const resume = async (args: string[]): Promise<string> => {
+  window.open(`https://drive.google.com/file/d/1TzttnKUpjSOYpotcxr5k33dgI3vhaxn1/view`);
+
+  return 'Opening resume...';
+};
+
+export const r = async (args: string[]): Promise<string> => {
+  window.open(`https://drive.google.com/file/d/1TzttnKUpjSOYpotcxr5k33dgI3vhaxn1/view`);
+
+  return 'Opening resume...';
+};
+
 export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
 
