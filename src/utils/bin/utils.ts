@@ -9,9 +9,9 @@ export const h = async (args: string[]): Promise<string> => {
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'portfolio' / 'p'   |      | Linkedin |'linkedin'|      |        'cowsay'       |
+|  'projects' / 'p'   |      | Linkedin |'linkedin'|      |        'cowsay'       |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'internships' / 'i' |      |  Spotify | 'spotify'|      |         'date'        |
+| 'experiences' / 'e' |      |  Spotify | 'spotify'|      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'about' / 'a'    |      |   Email  |  'email' |      |       'doritos'       |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -40,9 +40,9 @@ export const help = async (args: string[]): Promise<string> => {
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'portfolio' / 'p'   |      | Linkedin |'linkedin'|      |        'cowsay'       |
+|  'projects' / 'p'   |      | Linkedin |'linkedin'|      |        'cowsay'       |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'internships' / 'i' |      |  Spotify | 'spotify'|      |         'date'        |
+| 'experiences' / 'e' |      |  Spotify | 'spotify'|      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'about' / 'a'    |      |   Email  |  'email' |      |       'doritos'       |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -145,7 +145,7 @@ Want to use a regular website? type 'gui' and press enter
 
 Example Commands:
   - Resume: 'resume' or 'r'
-  - Projects: 'portfolio' or 'p'
+  - Projects: 'projects' or 'p'
   - Github: 'github'
 
 Contacts:
@@ -171,7 +171,7 @@ Want to use a regular website? type 'gui' and press enter
 
 Example Commands:
   - Resume: 'resume' or 'r'
-  - Projects: 'portfolio' or 'p'
+  - Projects: 'projects' or 'p'
   - Github: 'github'
 
 Contacts:
