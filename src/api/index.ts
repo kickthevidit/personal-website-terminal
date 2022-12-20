@@ -16,7 +16,7 @@ export const getBio = async () => {
 };
 
 export const getExp = async () => {
-  const { data } = await axios.get(config.bioUrl);
+  const { data } = await axios.get(config.experience);
 
   return data;
 };
