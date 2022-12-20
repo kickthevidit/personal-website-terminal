@@ -1,7 +1,7 @@
 import axios from 'axios';
 import config from '../../config.json';
 
-export const getProjects = async () => {
+export const getRepos = async () => {
   const { data } = await axios.get(
     `https://api.github.com/users/${config.social.github}/repos`,
   );
@@ -29,6 +29,12 @@ export const getResume = async () => {
 
 export const getPortfolio = async () => {
   const { data } = await axios.get(config.portfolio);
+
+  return data;
+};
+
+export const getProjects = async () => {
+  const { data } = await axios.get(config.projects);
 
   return data;
 };
