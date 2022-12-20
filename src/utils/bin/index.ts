@@ -3,6 +3,7 @@ export * from './exp';
 export * from './resume';
 export * from './repos';
 export * from './portfolio';
+export * from './projects';
 export * from './social';
 export * from './theme';
 export * from './utils';

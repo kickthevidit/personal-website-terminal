@@ -76,7 +76,8 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://m4tt72.com', '_self'); // TODO: Add personal url
+  // window.open('https://m4tt72.com', '_self'); // TODO: Add personal url
+  window.open('https://vidg.webflow.io/', '_self'); // TODO: Add personal url
 
   return 'Opening GUI version...';
 };
@@ -88,7 +89,7 @@ export const email = async (args: string[]): Promise<string> => {
 };
 
 export const vi = async (args: string[]): Promise<string> => {
-  return `why use vi? try 'vim'.`;
+  return `why use vi? try 'vim'`;
 };
 
 export const vim = async (args: string[]): Promise<string> => {
