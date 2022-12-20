@@ -109,20 +109,6 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: unable to run the command '${args[0]}' as root.`;
 };
 
-/* export const repo = async (args?: string[]): Promise<string> => {
-  setTimeout(function () {
-    window.open('https://github.com/m4tt72/terminal', '_blank');
-  }, 1000);
-
-  return 'Opening repository...';
-}; */
-
-/* export const donate = async (args?: string[]): Promise<string> => {
-  window.open(packageJson.funding.url, '_blank');
-
-  return 'Opening donation url...';
-}; */
-
 export const doritos = async (args?: string[]): Promise<string> => {
   return `
 -----------------------------------------------------------------------------------------
