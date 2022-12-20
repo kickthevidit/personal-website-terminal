@@ -1,4 +1,5 @@
 export * from './about';
+export * from './exp';
 export * from './resume';
 export * from './projects';
 export * from './portfolio';
