@@ -146,6 +146,7 @@ Want to use a regular website? type 'gui' and press enter
 Example Commands:
   - Resume: 'resume' or 'r'
   - Projects: 'projects' or 'p'
+  - Experiences: 'experience' or 'e'
   - Github: 'github'
 
 Contacts:
@@ -172,6 +173,7 @@ Want to use a regular website? type 'gui' and press enter
 Example Commands:
   - Resume: 'resume' or 'r'
   - Projects: 'projects' or 'p'
+  - Experiences: 'experience' or 'e'
   - Github: 'github'
 
 Contacts:

@@ -6,3 +6,9 @@ export const experience = async (args: string[]): Promise<string> => {
   return exp;
 };
 
+export const e = async (args: string[]): Promise<string> => {
+  const exp = await getExp();
+
+  return exp;
+};
+
