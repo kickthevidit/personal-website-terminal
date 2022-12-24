@@ -25,13 +25,13 @@ export const super_secret = async (args: string[]): Promise<string> => {
 };
 
 export const resume = async (args: string[]): Promise<string> => {
-  window.open(`https://drive.google.com/file/d/1TzttnKUpjSOYpotcxr5k33dgI3vhaxn1/view`);
+  window.open(`https://drive.google.com/file/d/1pw7WpxEP9Q7GfkjDZIWHnNVSGnA-h_NO/view?usp=sharing`);
 
   return 'Opening resume...';
 };
 
 export const r = async (args: string[]): Promise<string> => {
-  window.open(`https://drive.google.com/file/d/1TzttnKUpjSOYpotcxr5k33dgI3vhaxn1/view`);
+  window.open(`https://drive.google.com/file/d/1pw7WpxEP9Q7GfkjDZIWHnNVSGnA-h_NO/view?usp=sharing`);
 
   return 'Opening resume...';
 };
