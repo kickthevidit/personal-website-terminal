@@ -41,3 +41,9 @@ export const linkedin = async (args: string[]): Promise<string> => {
 
   return 'Opening linkedin...';
 };
+
+export const wolfenstein = async (args: string[]): Promise<string> => {
+  window.open(`http://git.nihilogic.dk/wolf3d/`);
+
+  return 'Opening linkedin...';
+};

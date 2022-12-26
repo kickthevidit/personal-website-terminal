@@ -1,19 +1,18 @@
 import packageJson from '../../../package.json';
 import * as bin from './index';
 
-export const h = async (args: string[]): Promise<string> => {
-  const commands = Object.keys(bin).sort().join(', ');
+export const h = async (args: string[]): Promise<string> => {  const commands = Object.keys(bin).sort().join(', ');
 
   return `Available commands:\n${commands}\n\n[tab]\t trigger completion.\n[ctrl+l] clear terminal.\n[ctrl+c] cancel command.
 
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-|  'projects' / 'p'   |      | Linkedin |'linkedin'|      |        'cowsay'       |
+|  'projects' / 'p'   |      | Linkedin |'linkedin'|      |     'wolfenstein'     |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'experiences' / 'e' |      |  Spotify | 'spotify'|      |         'date'        |
+| 'experiences' / 'e' |      |  Spotify | 'spotify'|      |        'cowsay'       |
 +---------------------+      +----------+----------+      +-----------------------+
-|    'about' / 'a'    |      |   Email  |  'email' |      |       'doritos'       |
+|    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'banner' / 'b'   |      |  Github  | 'github' |      |        'emacs'        |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -28,6 +27,8 @@ export const h = async (args: string[]): Promise<string> => {
                                                           |        'whoami'       |
                                                           +-----------------------+
                                                           |     'theme random'    |
+                                                          +-----------------------+
+                                                          |       'doritos'       |
                                                           +-----------------------+
 `;
 };
@@ -40,11 +41,11 @@ export const help = async (args: string[]): Promise<string> => {
 +---------------------+      +---------------------+      +-----------------------+
 |    'resume' / 'r'   |      |       Socials       |      |       Try These       |
 +---------------------+      +----------+----------+      +-----------------------+
-|  'projects' / 'p'   |      | Linkedin |'linkedin'|      |        'cowsay'       |
+|  'projects' / 'p'   |      | Linkedin |'linkedin'|      |     'wolfenstein'     |
 +---------------------+      +----------+----------+      +-----------------------+
-| 'experiences' / 'e' |      |  Spotify | 'spotify'|      |         'date'        |
+| 'experiences' / 'e' |      |  Spotify | 'spotify'|      |        'cowsay'       |
 +---------------------+      +----------+----------+      +-----------------------+
-|    'about' / 'a'    |      |   Email  |  'email' |      |       'doritos'       |
+|    'about' / 'a'    |      |   Email  |  'email' |      |         'date'        |
 +---------------------+      +----------+----------+      +-----------------------+
 |    'banner' / 'b'   |      |  Github  | 'github' |      |        'emacs'        |
 +---------------------+      +----------+----------+      +-----------------------+
@@ -59,6 +60,8 @@ export const help = async (args: string[]): Promise<string> => {
                                                           |        'whoami'       |
                                                           +-----------------------+
                                                           |     'theme random'    |
+                                                          +-----------------------+
+                                                          |       'doritos'       |
                                                           +-----------------------+
 `;
 };
