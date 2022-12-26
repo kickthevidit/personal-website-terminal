@@ -55,9 +55,7 @@ export const getQuote = async () => {
 
 // Mortal Kombat
 export const getMK = async () => {
-  const { data } = await axios.get('https://api.quotable.io/random');
+  const { data } = await axios.get(config['mortal-kombat']);
 
-  return {
-    quote: `“${data.content}” — ${data.author}`,
-  };
+  return data;
 };
