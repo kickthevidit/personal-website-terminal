@@ -137,6 +137,7 @@ Example Commands:
   - Projects: 'projects' or 'p'
   - Experiences: 'experience' or 'e'
   - Github: 'github'
+  - Play Wolfenstein 3D: 'wolfenstein'
 
 Contacts:
   - Email me: 'email'
@@ -164,6 +165,7 @@ Example Commands:
   - Projects: 'projects' or 'p'
   - Experiences: 'experience' or 'e'
   - Github: 'github'
+  - Play Wolfenstein 3D: 'wolfenstein'
 
 Contacts:
   - Email me: 'email'
