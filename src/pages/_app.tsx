@@ -27,7 +27,6 @@ const App = ({ Component, pageProps }) => {
             key="viewport"
           />
         </Head>
-
         <Layout onClick={onClickAnywhere}>
           <Component {...pageProps} inputRef={inputRef} />
         </Layout>

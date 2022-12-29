@@ -42,6 +42,24 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
           borderWidth: config.border ? 2 : 0,
         }}
       >
+        <a href="https://vidg.webflow.io"><button
+          style={{
+            margin: 2,
+            marginBottom: 10,
+            alignContent: 'center',
+          }}><div
+            style={{
+              borderColor: theme.yellow,
+              borderWidth: 1,
+              width: 190,
+              // height: 45,
+              borderRadius: 2,
+              margin: 5,
+              flex: 1,
+              alignContent: 'center',
+            }}
+          ><p style={{ color: theme.yellow }}>GUI Website</p></div></button></a>
+        
         <div ref={containerRef} className="overflow-y-auto h-full">
           <History history={history} />
 
