@@ -14,21 +14,13 @@ const Layout: React.FC<Props> = ({ children, onClick }) => {
       className="min-w-max text-xs md:min-w-full md:text-base"
       onClick={onClick}
       style={{
-        color: theme.foreground,
+        color: theme.white,
       }}
     >
-      {/* <div
-        className="GUI website button"
-        style={{
-          color: theme.foreground,
-          border: 2,
-          borderBlockColor: 'black',
-        }}
-      ><button>Chicken Wings</button></div> */}
       <main
         className="w-full h-full p-2"
         style={{
-          background: theme.background,
+          background: theme.brightBlack,
         }}
       >
         {children}
