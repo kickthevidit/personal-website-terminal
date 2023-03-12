@@ -47,7 +47,11 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
           <div style={{ float: "left", width: "75%" }}><History history={history} />
 
             <Input inputRef={inputRef} containerRef={containerRef} /></div>
-          <div style={{ float: "left", width: "25%", textAlign: "right" }}>
+
+          <div style={{ float: "left", width: "25%", textAlign: "right", alignContent: "right" }}>
+            <a href="https://vidg.webflow.io"><button className="action-btn1"><p style={{ fontFamily: "sans-serif", fontSize: "18px" }}>Go to GUI version</p></button></a>
+          </div>
+          {/* <div style={{ float: "left", width: "25%", textAlign: "right" }}>
             <a href="https://vidg.webflow.io" ><button
               style={{
                 alignContent: 'center',
@@ -62,7 +66,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
                   alignContent: 'center',
                   padding: '15px',
                 }}
-              ><p style={{ color: theme.yellow, fontFamily: "sans-serif", fontSize: "18px" }}>Check out the Graphical Website!</p></div></button></a></div>
+              ><p style={{ color: theme.yellow, fontFamily: "sans-serif", fontSize: "18px" }}>Check out the Graphical Website!</p></div></button></a></div> */}
         </div>
       </div>
     </>

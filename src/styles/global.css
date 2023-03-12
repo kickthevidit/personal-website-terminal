@@ -6,6 +6,7 @@
   font-family: 'CascadiaCode';
   src: url(/assets/fonts/CascadiaCode.ttf);
   display: swap;
+  size: 15px;
 }
 
 * {
@@ -14,9 +15,9 @@
 
 html,
 body,
-body > div:first-child,
+body>div:first-child,
 div#__next,
-div#__next > div {
+div#__next>div {
   height: 100%;
   overflow: auto;
 }
@@ -32,4 +33,61 @@ div#__next > div {
 
 a {
   text-decoration: underline;
+}
+
+.action-btn {
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background: 0 0;
+  width: 247px;
+  height: 75px;
+  border: 1px solid #e7741e;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1;
+  flex-shrink: 0;
+  /* font-size: 16px; */
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: (12+5)px (16+5)px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all .14s ease-out;
+  white-space: normal;
+}
+
+.action-btn:hover {
+  box-shadow: 4px 4px 0 #f8dcc0;
+  transform: translate(-4px, -4px);
+}
+
+.action-btn:focus-visible {
+  outline-offset: 1px;
+}
+
+.action-btn1 {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 2px solid #e7741e;
+  border-radius: 3px;
+  color: #f8dcc0;
+  background: #1f1d45;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 12px 20px;
+  text-align: center;
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
+.action-btn1:hover {
+  color: #1f1d45;
+  background: #e7741e;
 }
